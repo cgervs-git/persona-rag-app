@@ -1,0 +1,40 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment folders
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Streamlit config and secrets
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs or temp output
+*.log
+*.out
+
+# Vector DB or index files (if saved to disk)
+*.faiss
+*.idx
+*.npy
+
+# Uploaded documents (if temporarily saved)
+*.pdf
+uploads/

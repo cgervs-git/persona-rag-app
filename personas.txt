@@ -1,0 +1,198 @@
+# Semiconductor Industry User Personas
+
+---
+
+## Persona 1: Integrated Device Manufacturer (IDM)
+
+**Name**: Hiroshi Tanaka  
+**Title / Role**: VP of Technology Strategy  
+**Company Type**: IDM (Integrated Device Manufacturer)
+
+**Goals**:
+- Reduce cost per chip while maintaining high performance  
+- Align fab capabilities with future design roadmaps  
+- Identify areas for internal/external investment  
+
+**Pain Points**:
+- Difficulty keeping internal teams aligned on new tech directions  
+- Long lead times for benchmarking against competitors  
+
+**Key Metrics**:
+- Yield rate  
+- Performance-per-watt  
+- Cost-per-wafer  
+
+**Typical Use Cases**:
+- Benchmarking competitors’ packaging & node choices  
+- Analyzing process flows and manufacturing nodes  
+
+**Tools / Platforms**:
+- Internal EDA  
+- Foundry dashboards  
+- IP libraries  
+
+**Values in Platform**:
+- Accurate teardown data  
+- Cross-verified market insight  
+- Integration of tech + market context  
+
+**Engagement Style**:
+- Prefers dashboards  
+- Executive summaries  
+- Filters by node/technology  
+
+---
+
+## Persona 2: Capital Equipment Provider
+
+**Name**: Sarah Morales  
+**Title / Role**: Director of Product Marketing  
+**Company Type**: Semiconductor Equipment Manufacturer
+
+**Goals**:
+- Anticipate customer technology shifts (e.g., GAA, 3D packaging)  
+- Support sales with timely competitive positioning  
+
+**Pain Points**:
+- Hard to see beyond customer NDA limitations  
+- Need external validation to influence R&D roadmap  
+
+**Key Metrics**:
+- Installed base growth  
+- Revenue by segment  
+- Design wins  
+
+**Typical Use Cases**:
+- Analyze adoption of specific packaging/etch tools  
+- Track tool wins at foundries/IDMs  
+
+**Tools / Platforms**:
+- CRM  
+- Tableau  
+- Excel  
+- TechInsights competitive analysis  
+
+**Values in Platform**:
+- Visual trend maps  
+- Vendor shipment insights  
+- Tool BOMs  
+
+**Engagement Style**:
+- Consumes visual insights  
+- Exports for sales decks  
+
+---
+
+## Persona 3: Foundry Representative
+
+**Name**: Daniel Wu  
+**Title / Role**: Director of Customer Enablement  
+**Company Type**: Pure-Play Foundry  
+
+**Goals**:
+- Showcase foundry capabilities to fabless clients  
+- Validate process node performance against competitors  
+
+**Pain Points**:
+- Hard to disaggregate die-level insight from product-level analysis  
+- Limited visibility into customer feature adoption trends  
+
+**Key Metrics**:
+- Process adoption rate  
+- Time-to-volume  
+- Customer satisfaction  
+
+**Typical Use Cases**:
+- Compare yield-enhancing process nodes  
+- Track IP or packaging choices by fabless clients  
+
+**Tools / Platforms**:
+- Internal PDKs  
+- CRM  
+- Competitive insights dashboards  
+
+**Values in Platform**:
+- Die-level reverse engineering  
+- Timely design win tracking  
+
+**Engagement Style**:
+- Searches by technology node  
+- Consumes side-by-side benchmarks  
+
+---
+
+## Persona 4: Fabless Semiconductor Company
+
+**Name**: Ayesha Gupta  
+**Title / Role**: Sr. Design Engineer  
+**Company Type**: Fabless Semiconductor Company  
+
+**Goals**:
+- Accelerate time-to-market for SoCs  
+- Ensure competitive performance with third-party IP  
+
+**Pain Points**:
+- Lack of transparency into competitors’ IP implementation  
+- Difficult to validate packaging performance pre-tapeout  
+
+**Key Metrics**:
+- Die size  
+- Power efficiency  
+- Integration density  
+
+**Typical Use Cases**:
+- Compare die design and packaging strategies  
+- Review roadmap trends for AI, connectivity, mobile SoCs  
+
+**Tools / Platforms**:
+- Synopsys  
+- Cadence  
+- GitLab  
+- TechInsights  
+
+**Values in Platform**:
+- Fast access to architecture maps  
+- Annotated teardown visuals  
+
+**Engagement Style**:
+- Skims dashboards  
+- Bookmarks comparisons for team  
+
+---
+
+## Persona 5: Product Manufacturer (OEM)
+
+**Name**: Miguel Rossi  
+**Title / Role**: Head of Product Innovation  
+**Company Type**: Consumer Electronics Manufacturer  
+
+**Goals**:
+- Align future product design with chip advancements  
+- Source partners early for advanced features  
+
+**Pain Points**:
+- Late visibility into chip advancements  
+- Hard to evaluate technical tradeoffs across vendors  
+
+**Key Metrics**:
+- Time-to-market  
+- Product differentiation  
+- Supplier risk  
+
+**Typical Use Cases**:
+- Track chipset evolution by application (e.g., AR/VR, mobile)  
+- Compare teardowns of leading devices  
+
+**Tools / Platforms**:
+- PLM systems  
+- UX testing tools  
+- Market reports  
+
+**Values in Platform**:
+- Simplified analysis  
+- Trend forecasts  
+- Vendor comparison tables  
+
+**Engagement Style**:
+- Reviews summaries  
+- Uses filters by device or vertical  

@@ -25,6 +25,25 @@ This tool allows users to:
 
 ---
 
+## 🧠 How It Works (Semantic Search + RAG)
+
+This app implements a core **Retrieval-Augmented Generation (RAG)** pipeline:
+
+1. PDF content is split into manageable text chunks
+2. Each chunk is converted to a vector using OpenAI's `text-embedding-ada-002`
+3. Vectors are stored in a **FAISS** index for fast semantic retrieval
+4. User queries are embedded and compared for similarity
+5. Top-k relevant chunks are passed to **GPT-4**, along with the persona context
+6. GPT-4 generates a persona-specific answer using the retrieved context
+
+### ✅ Semantic Search
+The app uses **vector embeddings** and **FAISS** to find the most relevant passages — enabling context-aware answers without keyword matching.
+
+### ⚠️ Basic Feature Extraction
+While it doesn’t perform traditional ML feature extraction, the embedding process captures **latent semantic features**, which are used for retrieval and answer generation.
+
+---
+
 ## 👥 Built-In Personas
 
 - IDM (Integrated Device Manufacturer)
